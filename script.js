@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const playerListDiv = document.getElementById('player-list');
 
     // Ubah IP dan port server sesuai kebutuhan
-    const serverIP = "IP_SERVER";  // Contoh: "51.254.45.103"
-    const serverPort = "PORT_SERVER";  // Contoh: "7777"
+    const serverIP = "104.234.180.248";  // Contoh: "51.254.45.103"
+    const serverPort = "7001";  // Contoh: "7777"
 
     const apiUrl = `https://api.game-state.com/${serverIP}:${serverPort}/?players&info`;
 
